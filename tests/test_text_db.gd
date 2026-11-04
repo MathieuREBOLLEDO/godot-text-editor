@@ -203,6 +203,18 @@ func test_unreadable_file_blocks_save() -> void:
 	assert_false(db.save())
 
 
+func test_opening_empty_folder_writes_nothing() -> void:
+	var path: String = Fixtures.fresh_dir("untouched")
+	var db: TextDb = TextDb.new()
+	assert_true(db.load_dir(path))
+	assert_false(db.is_dirty(), "nothing to save")
+	db.save()
+	assert_false(FileAccess.file_exists(path + "/project.json"), "opening the editor creates no file")
+	db.add_entry("MENU_OK", "ui", "OK")
+	db.save()
+	assert_true(FileAccess.file_exists(path + "/project.json"), "written with the first text")
+
+
 func test_migrations() -> void:
 	assert_eq(Migrations.migrate({"a": 1})["data"]["schema"], Migrations.SCHEMA, "no schema: version 1")
 	assert_eq(Migrations.migrate({"schema": Migrations.SCHEMA + 1})["error"], "newer")

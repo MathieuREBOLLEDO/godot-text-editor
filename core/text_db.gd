@@ -488,8 +488,9 @@ func load_dir(path: String) -> bool:
 	_dirty_dialogues = {}
 	_removed_dialogues = {}
 	var project_path: String = path.path_join("project.json")
+	# Sans project.json : projet neuf, écrit au premier vrai changement
+	# (ouvrir l'éditeur ne crée aucun fichier).
 	if not FileAccess.file_exists(project_path):
-		_project_dirty = true
 		return true
 	var read: Dictionary = _read_json(project_path)
 	if read["ok"]:
@@ -520,7 +521,8 @@ func save() -> bool:
 	if has_blocking_errors() or dir.is_empty():
 		return false
 	var ok: bool = true
-	if _project_dirty:
+	var has_content: bool = not _dirty_categories.is_empty() or not _dirty_dialogues.is_empty()
+	if _project_dirty or (has_content and not FileAccess.file_exists(dir.path_join("project.json"))):
 		ok = _write_json(dir.path_join("project.json"), project) and ok
 	for category in _dirty_categories:
 		ok = _save_category(category) and ok
