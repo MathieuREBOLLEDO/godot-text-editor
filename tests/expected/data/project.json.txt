@@ -1,0 +1,52 @@
+{
+	"categories": [
+		"ui",
+		"menu",
+		"dialogue",
+		"choice",
+		"item",
+		"skill",
+		"tutorial",
+		"tooltip",
+		"notification",
+		"system",
+		"title",
+		"level",
+		"reward",
+		"quest",
+		"credits",
+		"error",
+		"interaction"
+	],
+	"characters": {
+		"merchant": {
+			"color": "#e0a040",
+			"name_key": "CHAR_MERCHANT",
+			"portrait": ""
+		}
+	},
+	"export_dir": "export",
+	"font": "",
+	"languages": [
+		"en",
+		"fr",
+		"de"
+	],
+	"limits": {},
+	"platforms": [
+		"pc",
+		"playstation",
+		"xbox",
+		"switch",
+		"steam_deck"
+	],
+	"schema": 1,
+	"source_language": "en",
+	"tokens": {
+		"INTERACT_BUTTON": {
+			"pc": "E",
+			"playstation": "Cross",
+			"xbox": "A"
+		}
+	}
+}

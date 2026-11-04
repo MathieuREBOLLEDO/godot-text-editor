@@ -1,0 +1,57 @@
+{
+	"category": "ui",
+	"entries": {
+		"MENU_PLAY": {
+			"category": "ui",
+			"context": "Main Menu",
+			"description": "",
+			"max_length": 0,
+			"modified": "2026-01-01T00:00:00",
+			"tags": [],
+			"texts": {
+				"de": {
+					"history": [],
+					"modified": "2026-01-01T00:00:00",
+					"source_hash": "de3c731be5",
+					"status": "translated",
+					"text": "Spielen"
+				},
+				"en": {
+					"history": [],
+					"modified": "",
+					"text": "Play"
+				},
+				"fr": {
+					"history": [],
+					"modified": "2026-01-01T00:00:00",
+					"source_hash": "de3c731be5",
+					"status": "translated",
+					"text": "Jouer"
+				}
+			}
+		},
+		"MENU_QUIT": {
+			"category": "ui",
+			"context": "",
+			"description": "",
+			"max_length": 0,
+			"modified": "2026-01-01T00:00:00",
+			"tags": [],
+			"texts": {
+				"en": {
+					"history": [],
+					"modified": "",
+					"text": "Quit"
+				},
+				"fr": {
+					"history": [],
+					"modified": "2026-01-01T00:00:00",
+					"source_hash": "0d82790b06",
+					"status": "translated",
+					"text": "Quitter"
+				}
+			}
+		}
+	},
+	"schema": 1
+}

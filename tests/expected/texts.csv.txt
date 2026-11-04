@@ -1,0 +1,9 @@
+keys,en,fr,de
+CHAR_MERCHANT,Merchant,Merchant,Merchant
+DLG_ASK,Tell me about the merchant.,Tell me about the merchant.,Tell me about the merchant.
+DLG_HELLO,"Hello, traveller.","Bonjour, voyageur.","Hello, traveller."
+DLG_HERE,He is right here.,He is right here.,He is right here.
+DLG_LEAVE,Goodbye.,Goodbye.,Goodbye.
+MENU_PLAY,Play,Jouer,Spielen
+MENU_QUIT,Quit,Quitter,Quit
+TUTORIAL_INTERACT,Press {INTERACT_BUTTON} to interact.,Appuie sur {INTERACT_BUTTON} pour interagir.,Press {INTERACT_BUTTON} to interact.

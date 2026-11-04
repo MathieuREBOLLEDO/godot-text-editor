@@ -1,0 +1,67 @@
+{
+	"characters": {
+		"merchant": {
+			"color": "#e0a040",
+			"name_key": "CHAR_MERCHANT",
+			"portrait": ""
+		}
+	},
+	"links": [
+		[
+			"n1",
+			0,
+			"n2"
+		],
+		[
+			"n2",
+			0,
+			"n3"
+		],
+		[
+			"n3",
+			0,
+			"n4"
+		],
+		[
+			"n3",
+			1,
+			"n5"
+		],
+		[
+			"n4",
+			0,
+			"n5"
+		]
+	],
+	"nodes": {
+		"n1": {
+			"type": "start"
+		},
+		"n2": {
+			"speaker": "merchant",
+			"text_key": "DLG_HELLO",
+			"type": "line"
+		},
+		"n3": {
+			"options": [
+				{
+					"condition": "",
+					"text_key": "DLG_ASK"
+				},
+				{
+					"condition": "",
+					"text_key": "DLG_LEAVE"
+				}
+			],
+			"type": "choice"
+		},
+		"n4": {
+			"speaker": "merchant",
+			"text_key": "DLG_HERE",
+			"type": "line"
+		},
+		"n5": {
+			"type": "end"
+		}
+	}
+}

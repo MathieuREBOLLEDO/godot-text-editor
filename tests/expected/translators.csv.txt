@@ -1,0 +1,9 @@
+﻿Key;Category;Context;Description;Tags;Max Length;English [en];French [fr];German [de];Revision
+CHAR_MERCHANT;dialogue;;;;;Merchant;;;605c777a
+DLG_ASK;choice;;;;;Tell me about the merchant.;;;fcc6cbb7
+DLG_HELLO;dialogue;;;;;Hello, traveller.;Bonjour, voyageur.;;39eeaa60
+DLG_HERE;dialogue;;;;;He is right here.;;;6952ae22
+DLG_LEAVE;choice;;;;;Goodbye.;;;bf9be2a3
+MENU_PLAY;ui;Main Menu;;;;Play;Jouer;Spielen;496eee55
+MENU_QUIT;ui;;;;;Quit;Quitter;;43c3549f
+TUTORIAL_INTERACT;tutorial;;;;;Press {INTERACT_BUTTON} to interact.;Appuie sur {INTERACT_BUTTON} pour interagir.;;68c9506f

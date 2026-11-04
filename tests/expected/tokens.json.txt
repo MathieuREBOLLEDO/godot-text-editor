@@ -1,0 +1,7 @@
+{
+	"INTERACT_BUTTON": {
+		"pc": "E",
+		"playstation": "Cross",
+		"xbox": "A"
+	}
+}

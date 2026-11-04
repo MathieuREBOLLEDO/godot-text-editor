@@ -1,0 +1,20 @@
+{
+	"dialogues": [
+		"village"
+	],
+	"entries": 8,
+	"languages": [
+		"en",
+		"fr",
+		"de"
+	],
+	"platforms": [
+		"pc",
+		"playstation",
+		"xbox",
+		"switch",
+		"steam_deck"
+	],
+	"schema": 1,
+	"source_language": "en"
+}

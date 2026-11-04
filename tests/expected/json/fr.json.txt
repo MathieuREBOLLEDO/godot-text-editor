@@ -1,0 +1,10 @@
+{
+	"CHAR_MERCHANT": "Merchant",
+	"DLG_ASK": "Tell me about the merchant.",
+	"DLG_HELLO": "Bonjour, voyageur.",
+	"DLG_HERE": "He is right here.",
+	"DLG_LEAVE": "Goodbye.",
+	"MENU_PLAY": "Jouer",
+	"MENU_QUIT": "Quitter",
+	"TUTORIAL_INTERACT": "Appuie sur {INTERACT_BUTTON} pour interagir."
+}
