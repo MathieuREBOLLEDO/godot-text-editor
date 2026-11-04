@@ -1,2 +1,3 @@
-# Références de non-régression comparées octet pour octet : toujours en LF.
-tests/expected/** text eol=lf
+# Références de non-régression comparées octet pour octet : gardées telles
+# quelles (LF pour le JSON, CRLF pour le CSV des traducteurs).
+tests/expected/** -text
